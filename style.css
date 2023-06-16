@@ -1,0 +1,43 @@
+.line{
+    width: 60px;
+    height: 4px;
+    background-color: #F38181;
+    margin-top: 40px;
+    margin-bottom: 60px;
+}
+header{
+    color: #95E1D3;
+}
+a{
+color: aqua;
+
+}
+.qqq{
+    color: aquamarine;
+}
+.linetwo{
+    background-color: #B6B6B6 ;
+    height: 1px;
+    width: 1200px;
+}
+.button{
+    background-color: #95E1D3 ;
+    border: none;
+    color: #fff;
+    padding: 14px 40px;
+    cursor: pointer;
+}
+.input{
+    padding: 12px 10px;
+    color: #B6B6B6;
+    width: 230px;
+
+}
+.text{
+    font-weight: 400;
+    font-size: 24px;
+}
+.title{
+    font-weight: 700;
+    font-size: 30px;
+}
