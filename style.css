@@ -1,12 +1,20 @@
+:root{
+    
+    --title-color: #333333;
+    --text-color: #B6B6B6;
+    --logo-color: #95E1D3;
+    --line-color: #F38181;
+    --background-color: #fff;
+}
 .line{
     width: 60px;
     height: 4px;
-    background-color: #F38181;
+    background-color: var(--line-color);
     margin-top: 40px;
     margin-bottom: 60px;
 }
 header{
-    color: #95E1D3;
+    color:var(--logo-color);
 }
 a{
 color: aqua;
@@ -16,20 +24,20 @@ color: aqua;
     color: aquamarine;
 }
 .linetwo{
-    background-color: #B6B6B6 ;
+    background-color:var(--text-color);
     height: 1px;
     width: 1200px;
 }
 .button{
-    background-color: #95E1D3 ;
+    background-color: var(--logo-color) ;
     border: none;
-    color: #fff;
+    color:var(--background-color);
     padding: 14px 40px;
     cursor: pointer;
 }
 .input{
     padding: 12px 10px;
-    color: #B6B6B6;
+    color: var(--text-color);
     width: 230px;
 
 }
@@ -40,4 +48,5 @@ color: aqua;
 .title{
     font-weight: 700;
     font-size: 30px;
+    color: var(--title-color);
 }
